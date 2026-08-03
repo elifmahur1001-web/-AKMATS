@@ -1,0 +1,6 @@
+TURBO DRIVE V5
+
+1. index.html dosyasını ve assets klasörünü birlikte yükleyin.
+2. GitHub deposunda klasör yapısını değiştirmeyin.
+3. GitHub Pages açıldığında oyun internet olmadan da ses dosyalarını kullanır.
+4. iPhone'da ses için MOTORU ÇALIŞTIR butonuna bir kez dokunmak gerekir.

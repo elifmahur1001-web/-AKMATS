@@ -834,7 +834,7 @@ async function init(){
  let existing=null;try{existing=JSON.parse(localStorage.getItem(DB_KEY)||"null")}catch(e){}
  if(existing) db=existing;
  else{
-  const admin={id:uid(),name:"Yönetici",role:"Yönetici",pinHash:await hashPin("1234"),active:true,permissions:defaultPermissions("Yönetici")};
+  const admin={id:uid(),name:"Yönetici",role:"Yönetici",pinHash:await hashPin("1453"),active:true,permissions:defaultPermissions("Yönetici")};
   db={version:4,settings:{unit:"Envanter ve Zimmet Yönetim Sistemi",theme:"dark",options:structuredClone(defaults)},users:[admin],
    personnel:old?.personnel||[{id:uid(),name:"Demo Personel 001",no:"PRS-001",rank:"Uzman Çavuş",unit:"Depo",phone:"",note:"Demo kayıt"}],
    items:(old?.items||[
